@@ -18,3 +18,5 @@ plugin_builtins += static_library(
   c_args: cargs,
   dependencies: plugin_deps,
 )
+
+device_tests += files('tests/realtek-scaler.json')
